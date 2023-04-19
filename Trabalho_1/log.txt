@@ -1,0 +1,12 @@
+17/4/2023 - 10:53:39, p5, 8787, negado (código inexistente)
+17/4/2023 - 10:54:8, p5, 14588, autorizado
+17/4/2023 - 10:54:29, p5, 4298, negado
+17/4/2023 - 10:54:41, p5, 4287, negado
+17/4/2023 - 11:17:5, p5, 14588, negado (código inexistente)
+17/4/2023 - 11:17:27, p5, 1458, autorizado
+19/4/2023 - 9:54:54, p5, 1458, autorizado
+19/4/2023 - 9:55:1, p5, 8787, negado (código inexistente)
+19/4/2023 - 10:0:40, p5, 1458, autorizado
+19/4/2023 - 10:0:48, p5, 14588, negado (código inexistente)
+19/4/2023 - 10:1:14, p5, 4287, negado
+19/4/2023 - 10:1:27, p5, 4298, negado

@@ -1,6 +1,5 @@
 # Imports
-import socket 
-import time
+import socket
 import sys
 
 #ip = input('digite o ip de conexao: ') 
@@ -32,9 +31,16 @@ while (resposta != "ACK"):
     resposta = socket_cliente.recv(1024).decode() # Recebe ACK
 
 resposta = socket_cliente.recv(1024).decode() # Recebe autorização
-print(resposta)
-#resposta = socket_cliente.recv(1024)
-time.sleep(0.1)
-#print(resposta)
+
+rp       = resposta.strip().split('-')
+nome     = rp[0]
+aut      = rp[1]
+
+if aut=='y':
+    print("Entrada autorizada, " + nome + '.')
+elif aut=='n':
+    print("Entrada não autorizada, " + nome + '.')
+else:
+    print("Erro ao receber mensagem")
 
 socket_cliente.close()

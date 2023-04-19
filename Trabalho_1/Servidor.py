@@ -5,7 +5,8 @@ import Metodos_Servidor as ms
 
 host = 'localhost' 
 porta = 7000 
-addr = (host, porta) 
+addr = (host, porta)
+ms.receive_dados("cred.txt")
 #criar o socket para o servidor passando a família do protocolo de transporte 
 #socket.AF_INET define que é um protocolo para rede IP (AF_BLUETOOTH definiria comunicação bluetooth, por exemplo)
 #socket.SOCK_STREAM para TCP
